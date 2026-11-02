@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mobinuf8s-vecdb_jd014"
+name = "mobinuf8s-data_mix_curriculum_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出向量数据库内核工程师·训练数据配比与课程学习上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://mobinuf8s.github.io"
-Repository = "https://github.com/mobinuf8s/vecdb_jd014"
-Issues = "https://github.com/mobinuf8s/vecdb_jd014/issues"
+Repository = "https://github.com/mobinuf8s/data_mix_curriculum_count_trace"
+Issues = "https://github.com/mobinuf8s/data_mix_curriculum_count_trace/issues"
 
 [project.scripts]
-vecdb_jd014 = "vecdb_jd014:main"
+data_mix_curriculum_count_trace = "data_mix_curriculum_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["vecdb_jd014"]
+py-modules = ["data_mix_curriculum_count_trace"]
